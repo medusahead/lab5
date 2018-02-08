@@ -20,3 +20,7 @@ h1, h2, h3, h4, h5 {
 #friends .nameLink {
 	color: #ff69b4;
 }
+
+body {
+	background-color: #fffdd0;
+}
