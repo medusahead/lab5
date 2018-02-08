@@ -13,6 +13,10 @@ h1, h2, h3, h4, h5 {
 	color: #8382BF;
 }
 
-.friends {
-	max-width: 200px
+#friends {
+	max-width: 200px;
+}
+
+#friends .nameLink {
+	color: #ff69b4;
 }

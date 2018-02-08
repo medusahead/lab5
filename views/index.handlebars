@@ -2,13 +2,15 @@
 
 <html>
 <head>
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.css" rel="stylesheet">
+	<link href="css/hci-friends.css" rel="stylesheet">
+
 	<title>Find A Friend!</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<link href="css/bootstrap.css" rel="stylesheet">
-	<link href="css/bootstrap-theme.css" rel="stylesheet">
-	<link href="css/hci-friends.css" rel="stylesheet">
+
 
 </head>
 
@@ -17,11 +19,9 @@
 		<h1>My HCI Friends</h1>
 
 		{{#each friends}}
-		<div class="friends">
-
-			<h3><a href="#" class="friend-name">{{name}}</a></h3>
-
+		<div id="friends">
 			<img src="{{imageURL}}" alt="friend pic" class="img-responsive">
+			<h3><a href="#" class="nameLink">{{name}}</a></h3>
 			<p>{{description}}</p>
 		</div>
  	{{/each}}

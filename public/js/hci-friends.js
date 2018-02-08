@@ -4,7 +4,7 @@
 $(document).ready(function() {
 	initializePage();
 
-	$(".friend-name").click(function (e) {
+	$(".nameLink").click(function (e) {
 		e.preventDefault();
 		$(this).text(anagrammedName($(this).text()));
 });
