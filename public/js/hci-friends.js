@@ -20,8 +20,6 @@ function initializePage() {
 }
 
 function anagrammedName(name) {
-			e.preventDefault();
-			$(this).text();
 	// Thanks, Internet Anagram Server!
 	if (name == "Doug Engelbart") {
 		return "Notable Grudge";
